@@ -1,0 +1,8 @@
+# Python dependencies for the coculture notebook (versions match the comets-lab image)
+cometspy==0.6.3
+cobra==0.30.0
+jupyterlab==4.5.4
+matplotlib==3.10.8
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
