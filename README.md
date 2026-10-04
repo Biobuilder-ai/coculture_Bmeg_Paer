@@ -28,9 +28,15 @@
 - jupyterlab 4.5.4、matplotlib、numpy、pandas、scipy
 - COMETS 2.12.3（Java），环境变量 `COMETS_HOME=/opt/comets_linux`、`JAVA_TOOL_OPTIONS=-Dcomets.home=/opt/comets_linux`
 
-> **注意**：Docker 镜像文件（`comets-lab.tar`，约 630 MB）体积超出 GitHub 单文件限制，暂未随仓库分发。
-> 请从项目作者处获取该镜像文件，放到**仓库根目录**（与启动脚本同级），然后按下面步骤启动。
-> 镜像的自动下载/发布方案会在后续版本补充。
+> **获取 Docker 镜像**：镜像文件（`comets-lab.tar`，约 630 MB）体积超出 GitHub 仓库单文件限制，
+> 已作为 Release 资产分发。下载后放到**仓库根目录**（与启动脚本同级）：
+>
+> - 下载地址：<https://github.com/Biobuilder-ai/coculture_Bmeg_Paer/releases/download/v1.0.0/comets-lab.tar>
+> - 命令行下载：
+>   ```bash
+>   curl -L -o comets-lab.tar https://github.com/Biobuilder-ai/coculture_Bmeg_Paer/releases/download/v1.0.0/comets-lab.tar
+>   ```
+> - 校验（可选）：sha256 应为 `d3e0e8f5bf6c2357da6eb8d6e9b02945ed91f82f870993735041e70a69161892`
 
 ## 快速开始
 
